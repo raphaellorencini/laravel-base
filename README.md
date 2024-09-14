@@ -12,6 +12,12 @@
 Base of Laravel 11 running in Docker with Nginx, Mysql and Redis
 
 ---
+Just execute:
+```bash
+docker compose up -d
+```
+
+---
 ### Changing .env config
 Change configs in docker/app/.app-env, here can be add more configs like **{{.Env.DB_HOST}}**
 
